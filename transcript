@@ -1,0 +1,21 @@
+# vsim -L LIB_RTL LIB_BENCH.instructionMemory_tb 
+# Start time: 22:11:14 on Oct 14,2024
+# Loading sv_std.std
+# Loading LIB_BENCH.instructionMemory_tb
+# Loading LIB_RTL.instructionMemory
+add wave -position insertpoint  \
+sim:/instructionMemory_tb/instruction \
+sim:/instructionMemory_tb/address
+run
+# ** Note: $finish    : SRC/BENCH/instructionMemory_tb.sv(36)
+#    Time: 500 ns  Iteration: 0  Instance: /instructionMemory_tb
+# 1
+# Break in Module instructionMemory_tb at SRC/BENCH/instructionMemory_tb.sv line 36
+run
+run
+run
+add watch \
+{sim:/instructionMemory_tb/address[2]} 
+# Break key hit
+# End time: 22:27:26 on Oct 14,2024, Elapsed time: 0:16:12
+# Errors: 0, Warnings: 0
