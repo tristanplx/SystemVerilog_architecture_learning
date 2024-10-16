@@ -10,28 +10,53 @@ z2
 cModel Technology
 Z0 d/home/tristanplx/Documents/SystemVerilog_architecture_learning
 vinstructionMemory_tb
-DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1728936672
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1729099712
 !i10b 1
 !s100 g;zKI@@n_4GRz6Z0mFRAC0
-!s11b Dg1SIo80bB@j0V0VzS_@n1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IN7HM6d4fNamB=J9G5Z`6O0
-VDg1SIo80bB@j0V0VzS_@n1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1728936669
+w1728937710
 8SRC/BENCH/instructionMemory_tb.sv
 FSRC/BENCH/instructionMemory_tb.sv
 !i122 0
 L0 2 37
-OV;L;2020.1;71
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1728936672.000000
+Z6 !s108 1729099712.000000
 !s107 SRC/BENCH/instructionMemory_tb.sv|
 !s90 -sv|+acc|-svinputport=net|-work|LIB_BENCH|-L|LIB_RTL|SRC/BENCH/instructionMemory_tb.sv|
 !i113 1
-o-sv +acc -svinputport=net -work LIB_BENCH -L LIB_RTL
-tCvgOpt 0
+Z7 o-sv +acc -svinputport=net -work LIB_BENCH -L LIB_RTL
+Z8 tCvgOpt 0
 ninstruction@memory_tb
+vmux_tb
+R1
+R2
+!i10b 1
+!s100 VhhAQAj7>l7[@OL`XabV60
+R3
+Idol3<:G@K=cC9>i9Se?g_3
+R4
+S1
+R0
+w1729099328
+8SRC/BENCH/mux_tb.sv
+FSRC/BENCH/mux_tb.sv
+!i122 1
+L0 2 39
+R5
+r1
+!s85 0
+31
+R6
+!s107 SRC/BENCH/mux_tb.sv|
+!s90 -sv|+acc|-svinputport=net|-work|LIB_BENCH|-L|LIB_RTL|SRC/BENCH/mux_tb.sv|
+!i113 1
+R7
+R8

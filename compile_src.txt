@@ -18,10 +18,13 @@ VLOG_OPTS="-sv +acc -svinputport=net"
 
 # Compilation des fichiers RTL
 vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/instructionMemory.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/mux.sv
 
 # Compilation des BENCH
 vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/instructionMemory_tb.sv
+vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/mux_tb.sv
 
 # Simulation
 # Décommenter une seule ligne qui sera la ligne simulée
-vsim -L LIB_RTL LIB_BENCH.instructionMemory_tb
+#vsim -L LIB_RTL LIB_BENCH.instructionMemory_tb
+vsim -L LIB_RTL LIB_BENCH.mux_tb

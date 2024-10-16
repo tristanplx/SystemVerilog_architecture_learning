@@ -1,21 +1,17 @@
-# vsim -L LIB_RTL LIB_BENCH.instructionMemory_tb 
-# Start time: 22:11:14 on Oct 14,2024
+# vsim -L LIB_RTL LIB_BENCH.mux_tb 
+# Start time: 19:28:38 on Oct 16,2024
 # Loading sv_std.std
-# Loading LIB_BENCH.instructionMemory_tb
-# Loading LIB_RTL.instructionMemory
+# Loading LIB_BENCH.mux_tb
+# Loading LIB_RTL.mux
 add wave -position insertpoint  \
-sim:/instructionMemory_tb/instruction \
-sim:/instructionMemory_tb/address
+sim:/mux_tb/sel \
+sim:/mux_tb/out \
+sim:/mux_tb/in1 \
+sim:/mux_tb/in0
 run
-# ** Note: $finish    : SRC/BENCH/instructionMemory_tb.sv(36)
-#    Time: 500 ns  Iteration: 0  Instance: /instructionMemory_tb
+# ** Note: $finish    : SRC/BENCH/mux_tb.sv(37)
+#    Time: 40 ns  Iteration: 0  Instance: /mux_tb
 # 1
-# Break in Module instructionMemory_tb at SRC/BENCH/instructionMemory_tb.sv line 36
-run
-run
-run
-add watch \
-{sim:/instructionMemory_tb/address[2]} 
-# Break key hit
-# End time: 22:27:26 on Oct 14,2024, Elapsed time: 0:16:12
+# Break in Module mux_tb at SRC/BENCH/mux_tb.sv line 37
+# End time: 19:29:52 on Oct 16,2024, Elapsed time: 0:01:14
 # Errors: 0, Warnings: 0
